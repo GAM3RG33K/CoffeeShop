@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CoffeeShop</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="discount_offer_on_final_order">click on coffee image to get a discount of 10% on final order..</string>
+    <string name="base_coffee_price">Base Coffee Price:</string>
+</resources>

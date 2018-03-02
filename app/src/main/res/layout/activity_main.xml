@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffee_home_image">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/quantity"
+            android:textStyle=""
+            android:textColor="#ffffffff"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/minusButton"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/quantityTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="16dp"
+                android:text="0"
+                android:textColor="#ffffffff"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/plusButton"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/base_coffee_price"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/coffeeBasePriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="10"
+            android:textColor="#ffffff"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/orderButton"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#66000000"
+        android:text="ORDER"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+</RelativeLayout>
